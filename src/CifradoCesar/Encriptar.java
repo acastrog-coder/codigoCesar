@@ -14,6 +14,10 @@ public class Encriptar {
         this.llave = llave;
            }
 
+    public Encriptar() {
+
+    }
+
     public String getMensaje() {
         return mensaje;
     }

@@ -15,7 +15,11 @@ public class Desencriptar {
             this.llave = llave;
         }
 
-        public String getMensaje() {
+    public Desencriptar() {
+
+    }
+
+    public String getMensaje() {
             return mensaje;
         }
 
